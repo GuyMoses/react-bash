@@ -57,7 +57,7 @@ export default class Terminal extends Component {
      * Keep input in view on change
      */
     componentDidUpdate() {
-        this.refs.input.scrollIntoView();
+        // this.refs.input.scrollIntoView();
     }
 
     /*
